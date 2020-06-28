@@ -7,6 +7,17 @@ body section.page_title { /* Title of page */
     justify-content: center;
     margin-top: 100px;
 }
+a.body {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}
+a.body:hover {
+    text-decoration: underline;
+}
+a.body:visited {
+    color: rgb(75, 75, 75);
+}
 
 /* USED FOR 'POSTS.HTML' PAGE */
 body section.posts { /* Container for all posts */
@@ -71,7 +82,7 @@ a.back_button:hover {
 }
 
 .full_post_block { /* Container for a single post */
-    background: white;
+    background: rgba(255, 255, 255, 0.7);
 
     margin-top: 20px;
     margin-bottom: 70px;
@@ -104,5 +115,23 @@ div.post {
 
 /* Personal Page */
 ul.quotes {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+ul.quotes li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.quotes li div.quote_source {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: right;
+    padding-right: 0px;
+    font-style: italic;
 }
