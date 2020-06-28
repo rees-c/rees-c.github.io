@@ -1,7 +1,7 @@
 body {
     background-image: url("images/pano_perception.png");
-    background-size: 116%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position-x: center;
     background-attachment: fixed;
 }
