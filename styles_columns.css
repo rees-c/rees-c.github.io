@@ -7,7 +7,7 @@ html, body {
 figcaption.headshot_caption {
     font-style: italic;
     color: rgb(110, 117, 124);
-    font-size: smaller;
+    font-size: small;
     text-align: center;
     padding: 5px 0 0 0;
 }
