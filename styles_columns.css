@@ -138,6 +138,7 @@ div.about_me {
 div.education {
     margin: auto; /* centers the education text within the 'home_content' box */
     text-align: center;
+    padding-bottom: 20px;
 }
 
 /* Logo Buttons */
@@ -160,6 +161,15 @@ img.logo_buttons:hover {
 a.logo_links {
     margin-left: 10px;
     margin-right: 10px;
+}
+a {
+    padding-inline: 10px;
+}
+a:visited {
+    color: rgb(75, 75, 75);
+}
+a:hover {
+    font-weight: bold;
 }
 
 /* News section */
@@ -219,7 +229,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
     /* CSS for smartphone */
     div.header {
         height: 105px;
