@@ -132,16 +132,21 @@ div.home_content {
     
 }
 div.about_me {
-    text-align: left;
+    text-align: justify;
     margin: 0;
+    padding-bottom: 5px;
 }
 div.education {
     margin: auto; /* centers the education text within the 'home_content' box */
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 /* Logo Buttons */
+div.links_header {
+    margin: auto;
+    text-align: center;
+}
 div.social_media_platforms {
     padding-top: 20px;
     display: flex;
@@ -149,6 +154,7 @@ div.social_media_platforms {
     align-items: center;
     padding: 0;
     margin: 0;
+    padding-bottom: 5px;
 }
 img.logo_buttons {
     width: 4em;
